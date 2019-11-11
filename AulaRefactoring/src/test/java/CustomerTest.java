@@ -26,9 +26,9 @@ public class CustomerTest {
         user.addRental(new Rental(filme2, 2));
         
         String saida = "Rental record for Usuário\n";
-        saida += "\tBee Movie\t4.5\n";
+        saida += "\tBee Movie\t1.5\n";
         saida += "\tJumanji\t6\n";
-        saida += "Amount owed is 10.5\n";
+        saida += "Amount owed is 7.5\n";
         saida += "You earned 3 frequent renter points";
         
         assertEquals(saida, user.statement());
